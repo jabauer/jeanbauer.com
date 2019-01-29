@@ -11,8 +11,7 @@
 .frida-pink {color: #c32970}        /* rgb(195,41,112) */
 
 html {
-    /*background-image:url(images/lookingup.jpg);*/
-    background-image:url(images/pigments.jpg);
+    background-image:url(photos/pigments.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: initial, initial;
@@ -27,7 +26,6 @@ body {
     font-size: 1.1em;
     line-height: 1.4em;
     width: 66%;
-/*    max-width: 800px;*/    
     margin: 0 auto;
 }
 
