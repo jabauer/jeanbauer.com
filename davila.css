@@ -1,0 +1,217 @@
+.blue {color: #152562;}
+.red {color: #760101;}
+.green {color: #16391B;}
+.purple {color: #160242;}
+
+body {
+    font-family:arial, helvetica, sans-serif;
+    font-size: .9em;
+    background-color: #222;
+}
+
+#all_content {
+    width:900px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+a {
+    color: #16391B;
+}
+
+a:hover {
+    color: #333;
+}
+
+#nav {
+    float:right;
+    margin-right:10px;
+}
+
+#nav ul {
+    list-style-type:none;
+}
+
+#nav ul li {
+    display:inline;
+    border-right: 1.5px solid #16391B;
+    padding: 5px;
+}
+
+#nav ul li.last {
+    border-right:none;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	font-size: .9em;
+	color: #000;
+	padding:0;
+	margin:0;
+}
+
+#nav ul li a.active {
+    color: #760101;
+}
+
+#nav ul li a:hover {
+    color: #760101;
+}
+
+#banner_img {
+    margin: 0 10px;
+}
+
+#davila_img {
+    margin: 0 10px -25px 10px;
+}
+
+/* These next three ids home_left, home_center, and home_right are only on index.html
+All other pages have 2 columns not 3 */
+
+#home_left {
+    float:left;
+    width:270px;
+    margin: 0 7.5px 0 20px;
+}
+
+#home_left h2 {
+    font-family:courier, fixed, monospace;
+    font-weight:lighter;
+    color: #16391B;
+    margin-bottom: -10px;
+}
+
+#home_center {
+    width:375px;
+    float:left;
+    margin:0 7.5px;
+}
+
+#home_center h2 {
+    font-family:courier, fixed, monospace;
+    font-weight:lighter;
+    color: #152562;
+    margin-bottom: -10px;
+}
+
+#home_right {
+    float:right;
+    width:185px;
+    margin:0 20px 0 7.5px;
+}
+
+#home_right h2 {
+    font-family:courier, fixed, monospace;
+    font-weight:lighter;
+    color: #760101;
+    margin-bottom: -10px;
+}
+
+#left {
+    float:left;
+    width:565px;
+    margin:0 5px 0 20px;
+}
+
+#left h2 {
+    font-family:courier, fixed, monospace;
+    font-weight:lighter;
+    color: #760101;
+    margin-bottom: -10px;
+}
+
+.project_title_left {
+    font-weight:bold;
+    color: #160242;
+}
+
+#right {
+    float:right;
+    width:270px;
+    margin: 0 20px 0 5px;
+}
+
+#right h2 {
+    font-family:courier, fixed, monospace;
+    font-weight:lighter;
+    color: #152562;
+    margin-bottom: -10px;
+}
+
+#right h3 {
+    font-family:courier, fixed, monospace;
+    font-weight:lighter;
+    color: #152562;
+    margin-bottom: -10px;
+}
+
+#right h2.purple {
+    color: #160242;
+}
+
+#right h5 {
+    font-family:courier, fixed, monospace;
+    font-weight:lighter;
+    font-size: .9em;
+    color: #152562;
+    margin-bottom: -10px;
+}
+
+.project_title_right {
+    font-weight:bold;
+    color: #16391B;
+}
+
+table.photo_shows {
+    margin-top: 5px;
+}
+
+table.photo_shows td {
+    vertical-align:top;
+}
+
+table.photo_shows a {
+    color: white;
+}
+
+.show_title {
+    font-weight:bold;
+    color: #16391B;
+}
+
+p.right_justified {
+    text-align:right;
+}
+
+ul.clean {
+    list-style-type:none;
+}
+
+ul.clean li {
+    padding: 5px;
+}
+
+ul.clean_sidebar {
+    list-style-type:none;
+}
+
+ul.clean_sidebar li {
+    padding: 5px;
+    margin-left: -40px;    
+}
+
+table.photo_shows a.cansee {
+    color: #16391B;
+}
+
+#footer {
+    clear:both;
+    width:600px;
+    margin: 0 auto;
+    font-size: .8em;
+    border-top: thin solid #160242;
+    text-align:center;
+    padding-bottom: 10px;
+    color: #444;
+}

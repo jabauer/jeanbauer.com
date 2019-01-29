@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <title>DAVILA</title>
+        <link rel="stylesheet" type="text/css" href="davila.css" />
+    </head>
+    <body>
+        <div id="all_content">
+            <div id="header">
+                <img id="davila_img" src="images/davila.jpeg" alt="Jean Bauer [history, databases, photography]"/>
+            </div><!-- end header -->
+            <div id="left">
+                <h2>What is DAVILA?</h2>
+                <p>DAVILA is an open source relational database schema visualization and annotation tool.  It is written in <a href="http://processing.org" target="_blank">Processing</a> using the <a href="http://toxiclibs.org" target="_blank">toxiclibs</a> physics library and released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GPLv3</a>.</p>
+                <p>DAVILA makes it easy for database developers to create visually appealing and semantically rich interactive diagrams to document their relational data structures.  Ideally, an instance of DAVILA should make the design and purpose of the database clear to non-technical users (or other members of the design team who are unfamiliar with database structure).  It loads (and parses) the schema file of your database plus a CSV file containing a series of customization options.</p>
+                <h2>Why use DAVILA?</h2>
+                <p>There are quite a few schema visualization programs out there, both proprietary and open source, but they all generate generic diagrams with</p>
+                <ul class="clean">
+                    <li>no clear indication of modular structure</li>
+                    <li>no added annotation text</li>
+                    <li>no ability to interact with the diagram in a web environment</li>
+                </ul>
+                <p>With DAVILA you fill out a CSV file to label your diagram with basic information about the program (project name, URL, developer names) and license the diagram under the copyright or copyleft of your choice.  You can then group your entities into modules, color code those modules, indicate which entity is central to each module, and provide annotation text for every entity in the database.</p>
+                <p>Once DAVILA is running, users can click and drag the entities into different positions, expand an individual module for more information, or hide the non-central entities in a module to focus on another part of your schema.  All in a fun, force-directed environment courtesy of the toxiclibs physics library.  Pressing the space bar saves a snapshot of the window as a timestamped, vector-scaled pdf.</p>
+                <p>DAVILA allows you your users, clients, or fellow development team members to literally play with your schema until they understand it better.</p>
+                <p>But don't take my word for it.  Click on an example from the sidebar and see for yourself.</p>
+                <h2>Which schemas can DAVILA parse?</h2>
+                <p>Version 0.2 is released with 2 parsers.  The default parser can extract the necessary information from a SQL file created by the Django "manage.py sql" command.  The other parser can extract the necessary information from a Rails 2.x schema that uses SQL92 inserts to create foreign key constraints.</p>
+                <p>Overtime I hope to increase the parser library.  However, since SQL is a non-orthogonal language (and therefore every developer seems to have her/his favorite way of writing SQL Schemas), I will be relying on the user base to help improve the parser library.</p>
+                <p>See the README file included with the source code for information on how to create a parser that fits your schema.  I've tried to make it relatively easy.</p>
+                <h2>What does DAVILA stand for?</h2>
+                <p>DAVILA stands for many things: communication, understanding, community building, and the like, but it is not an acronym.  There are far too many acronyms running around the web these days, IMHO.</p> 
+                <p>DAVILA is named after John Adams' 1790 treatise on political philosophy, <cite>Discourses on Davila: a series of papers on political history,</cite> an extensive commentary of the Italian historian and diplomat Enrico Caterino Davila's 1630 <cite>Istoria delle guerre civili di Francia</cite>.</p>
+                <p>Yes.  I am a historian.  Any other questions?</p>
+            </div><!-- end left -->
+            <div id="right">
+                <h2>Get the Code</h2>
+                    <p>Code available on github:<br/>
+                        <a href="http://github.com/jabauer/DAVILA" target="_blank">http://github.com/jabauer/DAVILA</a></p>
+                <p>&nbsp;</p>
+                <h2>Read More</h2>
+                <p>To see my blog posts about DAVILA for digital humanists <a href="http://packets.jeanbauer.com/category/davila/">click here</a>.</p>
+                <p>&nbsp;</p>
+                <h2>Acknowledgements</h2>
+                <p>DAVILA was built while I was a <a href="http://nines.org" target="_blank">NINES</a> Graduate Fellow.  I particularly want to thank <a href="https://danawheeles.com/" target="_blank">Dana Wheeles</a> (NINES former project manager) and <a href="https://english.tamu.edu/dr-laura-mandell/" target="_blank">Laura Mandell</a> for their encouragement and great design suggestions.</p>
+            </div><!-- end right -->
+            <div id="footer">
+                <p>Copyright, Jean Bauer 2018</p>
+            </div><!-- end footer -->
+        </div><!-- end all_content -->
+    </body>
+</html>
